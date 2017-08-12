@@ -27,6 +27,9 @@ Each rule leverages the hash module of the yara tools. I provide an offset into 
 should hash and the hash algorthim. I choose md5 because it is fast and most folks dislike it because of the possability 
 of collision. If you think I should choose a different hashing algorthim please explain over beers.
 
+## QA
+Each rule is tested agains the cluster that it is written from and against part of our larger data set. The rule should fire only for its cluster or a neighbor cluster that both have the same "family." Rules that pass these qualifications are published in this archive.  Rules that fail these tests are used to inform the process and debug the systems that generate the rules. If you find a rule that is missing its target please let me know, contact deatiols are bleow.
+
 ## Is Icewater a form of Artifical Intelligence?
 Yes, if you are a VC -- Icewater is based off a kind of mathmatics that is used to describe the physical world, much like the 
 math that we use for training AI. Icewater uses the same algorthims all Eukaryote (any cell that has a nucleas) to organize 
