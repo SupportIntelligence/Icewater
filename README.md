@@ -46,6 +46,6 @@ that if you use these rules and know me in physical space, you may need to ackno
 enforce the license at public and private events. 
 
 # Contact
-webpage:  http://icewater.io
-blog:     http://cyberwarhead.com
-Twitter:  @wessorh
+webpage:  http://icewater.io  
+blog:     http://cyberwarhead.com  
+Twitter:  @wessorh  
