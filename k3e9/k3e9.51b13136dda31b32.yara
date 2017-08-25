@@ -9,7 +9,6 @@ rule k3e9_51b13136dda31b32
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.51b13136dda31b32"
      cluster="k3e9.51b13136dda31b32"
      cluster_size="230 samples"
-     yaraexchange = "No distribution without author's consent"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"

@@ -9,7 +9,6 @@ rule m3ec_299696c9cc000b12
      viz_url="http://icewater.io/en/cluster/query?h64=m3ec.299696c9cc000b12"
      cluster="m3ec.299696c9cc000b12"
      cluster_size="22 samples"
-     yaraexchange = "No distribution without author's consent"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"

@@ -9,7 +9,6 @@ rule m3ed_5362115bdaef4912
      viz_url="http://icewater.io/en/cluster/query?h64=m3ed.5362115bdaef4912"
      cluster="m3ed.5362115bdaef4912"
      cluster_size="2333 samples"
-     yaraexchange = "No distribution without author's consent"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
