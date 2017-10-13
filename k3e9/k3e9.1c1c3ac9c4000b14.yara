@@ -8,16 +8,15 @@ rule k3e9_1c1c3ac9c4000b14
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.1c1c3ac9c4000b14"
      cluster="k3e9.1c1c3ac9c4000b14"
-     cluster_size="25 samples"
-     yaraexchange = "No distribution without author's consent"
+     cluster_size="27 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170812"
-     license = "non-commercial use only"
+     date = "20170831"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="razy simbot backdoor"
-     md5_hashes="['44677d784bd393f28cc29336b1b55ac7', 'adf3dded598c0a68414af376255748b6', 'df42de52892d6be6fb88190736ea0bdc']"
+     md5_hashes="['adf3dded598c0a68414af376255748b6', 'ac330ccaf31492ab86af45f3e0f0af48', 'b3571beb42e687ef870f8cfb3281784d']"
 
 
    condition:

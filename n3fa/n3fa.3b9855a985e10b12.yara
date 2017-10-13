@@ -8,15 +8,15 @@ rule n3fa_3b9855a985e10b12
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=n3fa.3b9855a985e10b12"
      cluster="n3fa.3b9855a985e10b12"
-     cluster_size="11621 samples"
+     cluster_size="12210 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
+     date = "20170825"
      license = "non-commercial use only"
      family="adsnare malicious cloud"
-     md5_hashes="['06565c7f89b9baf6033fc4bd9bb80bdd', '049afbec5b1cc1e13fbb59bfe71b0499', '03a02e1ef485a595a52dc0e766141a4e']"
+     md5_hashes="['056e1525b25d2c639f3de23fb5e734eb', '0261efa9a57a0f0db98e0b52833d74d4', '04edaff9b91bc27b1306990cdfb01a9b']"
 
 
    condition:

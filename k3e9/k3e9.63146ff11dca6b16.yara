@@ -8,19 +8,19 @@ rule k3e9_63146ff11dca6b16
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.63146ff11dca6b16"
      cluster="k3e9.63146ff11dca6b16"
-     cluster_size="134 samples"
+     cluster_size="155 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170811"
-     license = "non-commercial use only"
+     date = "20170831"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="virut virtob virux"
-     md5_hashes="['b0ba3f5237c1bff89e394980b2f6ee3c', '220206e25be5eaff0c3e36f7f00a4ebb', 'fabcb123a577d7df4fe73fdaacdc245f']"
+     md5_hashes="['a1f1eee2ccfdf61373c28bbe5c19f958', 'e67623e59382ffff839eda95fbd35f14', 'e67623e59382ffff839eda95fbd35f14']"
 
 
    condition:
       filesize > 16384 and filesize < 65536
-      and hash.md5(29184,256) == "2e1e953ff8b0c4afd8a93f50be9aa1f2"
+      and hash.md5(28672,1024) == "cbe3f2c767bf3f871e1e15b0008153e1"
 }
 

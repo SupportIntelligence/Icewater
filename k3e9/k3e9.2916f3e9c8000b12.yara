@@ -8,15 +8,15 @@ rule k3e9_2916f3e9c8000b12
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.2916f3e9c8000b12"
      cluster="k3e9.2916f3e9c8000b12"
-     cluster_size="443 samples"
+     cluster_size="480 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170811"
+     date = "20170825"
      license = "non-commercial use only"
      family="razy backdoor simbot"
-     md5_hashes="['6c11611c7d92a1f5fe948beaccec8495', '78b34578dbb41477817c8eeacc8a8081', '88c006e6c1825d08af0098f3aff23b8b']"
+     md5_hashes="['b5dfcd2f944745cffbcdabcdbc1c9224', '783e6086a54dca6f9ffaca40d44021fc', '7c259e825d197d207d7d9fad500ad8b4']"
 
 
    condition:

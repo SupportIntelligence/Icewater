@@ -8,15 +8,15 @@ rule k3e9_05bd6f439ae31932
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.05bd6f439ae31932"
      cluster="k3e9.05bd6f439ae31932"
-     cluster_size="1253 samples"
+     cluster_size="1677 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
+     date = "20170825"
      license = "non-commercial use only"
      family="fdld nitol dropped"
-     md5_hashes="['2a009aaa1523e3ad11b52ab5627bdb3d', '056c8559053dfc5664b0c564624de882', '328d681e435f7d14701c060eaddb1c85']"
+     md5_hashes="['65b5a87a73c55439234da986a76cec04', '4e6379cb5b6dda10f398f7dc18f4202a', '54ba944dc408e3a7618ec17b4f0cfcf2']"
 
 
    condition:

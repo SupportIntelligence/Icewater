@@ -8,15 +8,15 @@ rule m3e9_331396b3cee30912
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.331396b3cee30912"
      cluster="m3e9.331396b3cee30912"
-     cluster_size="13728 samples"
+     cluster_size="13862 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
+     date = "20170825"
      license = "non-commercial use only"
      family="mailru malicious riskware"
-     md5_hashes="['053fed54710018888b28d63913026cbc', '0513669bb502d8d964a2d91401a479c1', '0511e9468fc2e47c7a7e333ede031aec']"
+     md5_hashes="['019413dce537fff3efcabe7a0a469b12', '009336d041304a361586c9efd82c32b3', '049ba49fbd9b32e1c6af2ee99c4532f0']"
 
 
    condition:

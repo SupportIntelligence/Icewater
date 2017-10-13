@@ -1,0 +1,25 @@
+import "hash"
+
+rule j3ef_2142d6abca000110
+{
+
+   meta:
+     copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     viz_url="http://icewater.io/en/cluster/query?h64=j3ef.2142d6abca000110"
+     cluster="j3ef.2142d6abca000110"
+     cluster_size="28850 samples"
+     filetype = "pe"
+     tlp = "amber"
+     version = "icewater foxtail"
+     author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
+     date = "20170825"
+     license = "non-commercial use only"
+     md5_hashes="['001f9305f5e77487929393dc7777df9f', '00fff740985095456f11f4ed5f8b6a96', '021b0edadc8e2b96cdbff0a6f9d2b0ae']"
+
+
+   condition:
+      filesize > 4096 and filesize < 16384
+      and hash.md5(1536,1024) == "1e4a91054c4e1e7f876315b2865f891f"
+}
+

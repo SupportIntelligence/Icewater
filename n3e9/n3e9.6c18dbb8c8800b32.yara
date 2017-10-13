@@ -8,15 +8,15 @@ rule n3e9_6c18dbb8c8800b32
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=n3e9.6c18dbb8c8800b32"
      cluster="n3e9.6c18dbb8c8800b32"
-     cluster_size="4299 samples"
+     cluster_size="4390 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
+     date = "20170825"
      license = "non-commercial use only"
      family="bxqw ainslot shakblades"
-     md5_hashes="['14f68b83a06a13e65093d6369d4d5656', '0305989d542e850fd88967b061436ede', '1ac9db0ab7bbe98ae03e4e5298b45e01']"
+     md5_hashes="['169e265a1104c00c07ca44c3a0420ac4', '0042eb734d0d495b21deb3765b660c55', '062b69c924a2ae16b00ca5d1c31a92b3']"
 
 
    condition:

@@ -8,16 +8,15 @@ rule m3e9_31b9e849c0000912
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.31b9e849c0000912"
      cluster="m3e9.31b9e849c0000912"
-     cluster_size="536 samples"
-     yaraexchange = "No distribution without author's consent"
+     cluster_size="552 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170815"
+     date = "20170825"
      license = "non-commercial use only"
      family="swrort elzob zusy"
-     md5_hashes="['659268cf32f41d0eb5a8d272f73043e6', '4c1bfb012778adf2bec7f701e9db6085', '1c7d58e6d33d8198ca0058761018fa94']"
+     md5_hashes="['2f4126270fdf223fa5839b26c4567fe8', '11e6e8a5327d99beb2b20ce882fced68', '08cb22d17053ab16141738f09241cd87']"
 
 
    condition:
