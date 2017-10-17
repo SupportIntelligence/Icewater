@@ -1,25 +1,26 @@
 import "hash"
 
-rule j3ef_2142d6abca000110
+rule j3ef_008496a9c6000110
 {
 
    meta:
      copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
-     viz_url="http://icewater.io/en/cluster/query?h64=j3ef.2142d6abca000110"
-     cluster="j3ef.2142d6abca000110"
-     cluster_size="28850 samples"
+     viz_url="http://icewater.io/en/cluster/query?h64=j3ef.008496a9c6000110"
+     cluster="j3ef.008496a9c6000110"
+     cluster_size="14038 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
-     md5_hashes="['001f9305f5e77487929393dc7777df9f', '00fff740985095456f11f4ed5f8b6a96', '021b0edadc8e2b96cdbff0a6f9d2b0ae']"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
+     family="linkury unwanted cfvg"
+     md5_hashes="['114775ccb0eec4ea6d59a551bc60b128', '01ff3d76e05a10ee8fee548711554076', '11241532dd1c3e8b4ed10cf7e531d863']"
 
 
    condition:
       filesize > 4096 and filesize < 16384
-      and hash.md5(1536,1024) == "1e4a91054c4e1e7f876315b2865f891f"
+      and hash.md5(2732,1109) == "2f9d5d5ca355c4ee28fb3b50b4316f8b"
 }
 

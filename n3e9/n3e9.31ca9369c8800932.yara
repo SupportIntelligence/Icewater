@@ -8,15 +8,15 @@ rule n3e9_31ca9369c8800932
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=n3e9.31ca9369c8800932"
      cluster="n3e9.31ca9369c8800932"
-     cluster_size="32 samples"
+     cluster_size="173 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="zusy orbus malicious"
-     md5_hashes="['a2cee7ccf046bc5886316e5622b67fc1', 'b8c8fbd1253196c7a34641a9a6042219', 'cc5510fe9d117f41567c9c0b13b0f64d']"
+     md5_hashes="['b669431fbc97fb8582023172d99cee86', 'd1b469c6db1eea2af7951ada0f3cafe7', 'b631258680fc2f59e5d0e14017dc4915']"
 
 
    condition:

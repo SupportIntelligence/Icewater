@@ -8,15 +8,15 @@ rule n3ed_61c4ea49c0000b32
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=n3ed.61c4ea49c0000b32"
      cluster="n3ed.61c4ea49c0000b32"
-     cluster_size="38 samples"
+     cluster_size="59 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="ramnit nimnul bmnup"
-     md5_hashes="['ac0f2ecc720617633398aa3ef0ae3a81', '45a0059ec7cfbf8a1503f8b0fc27ef80', 'ba88810260d7e070d88cd35e422a515f']"
+     md5_hashes="['cb8adc4c208e9af331deac81288d0745', 'cb8adc4c208e9af331deac81288d0745', 'aff006607a7a2676cb26eb0285885191']"
 
 
    condition:

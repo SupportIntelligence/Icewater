@@ -8,19 +8,19 @@ rule m3e9_611a9cc9cc000b12
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.611a9cc9cc000b12"
      cluster="m3e9.611a9cc9cc000b12"
-     cluster_size="240 samples"
+     cluster_size="258 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170831"
+     date = "20171009"
      license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="allaple rahack backdoor"
-     md5_hashes="['a174c699ca343bd85c7308f3950d97ba', '93379ee7b9addf35791d2e4117c09b86', '7033846f21d08835bb3d0f43be744645']"
+     md5_hashes="['ccb2ce52f58187c740a44226b13d6fad', 'cd10e3d85290bbcb22718a6b57c1b618', 'b3302f7cd24c59ad49db9fd5bd02ab2b']"
 
 
    condition:
       filesize > 65536 and filesize < 262144
-      and hash.md5(62976,1024) == "38345c2f0e0fb848e12408e6736482bc"
+      and hash.md5(72192,1024) == "14dde33989693b4355285520cc00d3a5"
 }
 
