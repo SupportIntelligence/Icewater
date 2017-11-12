@@ -8,15 +8,15 @@ rule n3ee_1ab83b99c2200b12
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=n3ee.1ab83b99c2200b12"
      cluster="n3ee.1ab83b99c2200b12"
-     cluster_size="9266 samples"
+     cluster_size="11472 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="chem snarasite malicious"
-     md5_hashes="['069bdba22013ea87c1919f12ccfb297d', '0742678ad955dabdf45025e779112b0c', '06c42c876d34ba49b9989235c63a755f']"
+     md5_hashes="['04f8060deec99f83d97a5ca1d7ac70a5', '038ed02770221c2902c5bb8f17c1cadb', '0453ef5567788ff79dcda474d39cd4f0']"
 
 
    condition:

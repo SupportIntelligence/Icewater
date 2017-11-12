@@ -5,22 +5,23 @@ rule k3e9_63146da11d926b16
 
    meta:
      copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     engine="saphire/1.2.4 divinorum/0.992 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.63146da11d926b16"
      cluster="k3e9.63146da11d926b16"
-     cluster_size="641 samples"
+     cluster_size="777 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171031"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="virut virtob virux"
-     md5_hashes="['40333f2011b062689aa8ba93021ea9db', '8f8c79d21f0afc4a46d5b8c7a580dd44', '93ad822135038c198b5a6774a34bb93b']"
+     md5_hashes="['9a0baf2e1fa3a694b168ec3b79044a38', '7874faa45edf334f50933b3e2bba26da', '86089914d648d29c2be9b7677b5fb947']"
 
 
    condition:
-      filesize > 16384 and filesize < 65536
-      and hash.md5(28672,1024) == "cbe3f2c767bf3f871e1e15b0008153e1"
+      uint16(0) == 0x5A4D and 
+      filesize > 16384 and filesize < 65536 and 
+      hash.md5(28672,1024) == "cbe3f2c767bf3f871e1e15b0008153e1"
 }
 

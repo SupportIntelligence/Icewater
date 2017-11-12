@@ -8,15 +8,15 @@ rule m3ed_4993254ada6fe912
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=m3ed.4993254ada6fe912"
      cluster="m3ed.4993254ada6fe912"
-     cluster_size="1682 samples"
+     cluster_size="3347 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="graftor palevo backdoor"
-     md5_hashes="['523658632d76d55f81965d1a29bc09dc', 'a01ece3e3fe1a96304270db6b5dbfa16', '4e0dae7f05c6ef2b14e8978c0134347b']"
+     md5_hashes="['45416520678025f505b5d6a9a0358da3', '1384efbcbc210c0b5f1237fe54e8f536', '1b8412ac080871e04d0ccb499d4106ce']"
 
 
    condition:

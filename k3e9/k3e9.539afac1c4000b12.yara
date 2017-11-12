@@ -8,15 +8,15 @@ rule k3e9_539afac1c4000b12
      engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
      viz_url="http://icewater.io/en/cluster/query?h64=k3e9.539afac1c4000b12"
      cluster="k3e9.539afac1c4000b12"
-     cluster_size="25754 samples"
+     cluster_size="27238 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170825"
-     license = "non-commercial use only"
+     date = "20171009"
+     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="mydoom email malicious"
-     md5_hashes="['028c7e21fc9b7cec36946a565f51e86e', '0190addbb3529571dff5fc049950887f', '004873cb47487bfa92c33a32c45503b3']"
+     md5_hashes="['06f2e4935a5c41e3fe657e769f459be5', '0142ecb02b506c201a14b6d0c7e6399b', '06fd8514b5e2404dcc6dfdc16fd83841']"
 
 
    condition:

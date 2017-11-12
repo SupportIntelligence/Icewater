@@ -1,26 +1,27 @@
-import "hash"
 
 rule m3ec_393ebd49c0000912
 {
 
    meta:
-     copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     copyright="Copyright (c) 2014-2018 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.3.1 divinorum/0.998 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=m3ec.393ebd49c0000912"
      cluster="m3ec.393ebd49c0000912"
-     cluster_size="31729 samples"
-     filetype = "pe"
+     cluster_size="32142"
+     filetype = "application/x-dosexec"
      tlp = "amber"
-     version = "icewater foxtail"
+     version = "icewater snowflake"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
-     license = "non-commercial use only"
+     date = "20171109"
+     license = "RIL-1.0 [Rick's Internet License] "
      family="antavmu fileinfector squdf"
-     md5_hashes="['0166464411d43f3160446965be38123b', '024c086f3b0ec3c517d9943de96400cc', '00d793a2503cc6c63ac19a9b40f96c3f']"
+     md5_hashes="['0000a123deee7f35941b3fc8e36c13d0','0001da0c65062f44c7d076141f4a9116','001fd1bad7dce995d53e6750ea64c56f']"
 
+   strings:
+      $hex_string = { 71e9ffff595f5e5b8be55dc39083c4bc54e8cb1c0000f644242c0174070fb7442430eb05b80a00000083c444c3e81b1d0000c39090558bec8b450850e8121d00 }
 
    condition:
+      
       filesize > 65536 and filesize < 262144
-      and hash.md5(69120,1024) == "1842b898f669fbdd8d01bebadd096d53"
+      and $hex_string
 }
-

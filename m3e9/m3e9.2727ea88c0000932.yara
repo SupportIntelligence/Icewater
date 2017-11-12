@@ -1,27 +1,27 @@
-import "hash"
 
 rule m3e9_2727ea88c0000932
 {
 
    meta:
-     copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     copyright="Copyright (c) 2014-2018 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.3.1 divinorum/0.998 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.2727ea88c0000932"
      cluster="m3e9.2727ea88c0000932"
-     cluster_size="2135 samples"
-     yaraexchange = "No distribution without author's consent"
-     filetype = "pe"
+     cluster_size="3509"
+     filetype = "application/x-dosexec"
      tlp = "amber"
-     version = "icewater foxtail"
+     version = "icewater snowflake"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170812"
-     license = "non-commercial use only"
+     date = "20171111"
+     license = "RIL-1.0 [Rick's Internet License] "
      family="upatre trojandownloader kryptik"
-     md5_hashes="['00f48c083bdc3f0ea393b5aecd38762a', '16d6aa3afc8c122ef41552d581262348', '23e6b56a8bcbf98a9b8a653b20c18dad']"
+     md5_hashes="['001e9867821e7e5d86c0aa9ca54290c2','00308c76abf6ac7d75441fbde4960839','0224495103665352b4ab4840baa421b2']"
 
+   strings:
+      $hex_string = { 43eda40fdadf83642ffb9ecb4aed7cbd0bd4c61b5845385442c4d2175e670661a8822aef702d6dcb1b44bcb829c2a213374ba607926983992512a1b95b6e488e }
 
    condition:
+      
       filesize > 65536 and filesize < 262144
-      and hash.md5(27099,1043) == "3b8d6748a5c57596ee230d317bcd6bbd"
+      and $hex_string
 }
-

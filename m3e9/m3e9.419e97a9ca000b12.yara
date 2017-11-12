@@ -5,21 +5,22 @@ rule m3e9_419e97a9ca000b12
 
    meta:
      copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     engine="saphire/1.2.4 divinorum/0.992 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.419e97a9ca000b12"
      cluster="m3e9.419e97a9ca000b12"
-     cluster_size="25 samples"
+     cluster_size="36 samples"
      filetype = "pe"
      tlp = "amber"
      version = "icewater foxtail"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170831"
+     date = "20171017"
      license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
      family="allaple rahack starman"
-     md5_hashes="['09d10b4c22cb8de65e56085cc14b1f63', 'b9f1067ec52337d34923ca7e81a4dda4', 'b60b97491545643ef188b9e39b1f938f']"
+     md5_hashes="['a86aa9080d5be8033a3a4c8b8d12e0a6', 'ddc5c722aa390598e2d3d2247aeb0976', 'ddc5c722aa390598e2d3d2247aeb0976']"
 
 
    condition:
+      uint16(0) == 0x5A4D and 
       filesize > 65536 and filesize < 262144
       and hash.md5(73291,1029) == "da5ab260d3f3b2aa7508f7dfc1ddb857"
 }

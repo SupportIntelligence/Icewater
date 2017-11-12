@@ -1,26 +1,27 @@
-import "hash"
 
 rule m3e9_16639291c8000112
 {
 
    meta:
-     copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     copyright="Copyright (c) 2014-2018 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.3.1 divinorum/0.998 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=m3e9.16639291c8000112"
      cluster="m3e9.16639291c8000112"
-     cluster_size="12525 samples"
-     filetype = "pe"
+     cluster_size="18906"
+     filetype = "application/x-dosexec"
      tlp = "amber"
-     version = "icewater foxtail"
+     version = "icewater snowflake"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20170816"
-     license = "non-commercial use only"
+     date = "20171109"
+     license = "RIL-1.0 [Rick's Internet License] "
      family="tinba crypt emotet"
-     md5_hashes="['02d5b16156cc4dd96a5f823a8f47eb2a', '06e6e47406d5a85e8b24395488c75b6b', '08143920e6266477e0351ada656a1934']"
+     md5_hashes="['001a95948567c83ff6285d6e7aac6947','0022320dad8ab27d481d20e825f9fb7c','00672ec6253d0e58dcdf5635cab0522d']"
 
+   strings:
+      $hex_string = { 56135b851f3710fbc15510285dee6b14a06d2099c765cc19e5d876656652582733e058b27a3f37a0f6189cf878384387204df53e694268583ddb3e53c287d526 }
 
    condition:
+      
       filesize > 65536 and filesize < 262144
-      and hash.md5(6142,1024) == "e525bc9c21ab6fbf303b9c9addf3e980"
+      and $hex_string
 }
-

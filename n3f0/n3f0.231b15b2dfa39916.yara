@@ -1,26 +1,27 @@
-import "hash"
 
 rule n3f0_231b15b2dfa39916
 {
 
    meta:
-     copyright="Copyright (c) 2014-2017 Support Intelligence Inc, All Rights Reserved."
-     engine="saphire/1.2.2 divinorum/0.99 icewater/0.3.01"
+     copyright="Copyright (c) 2014-2018 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.3.1 divinorum/0.998 icewater/0.4"
      viz_url="http://icewater.io/en/cluster/query?h64=n3f0.231b15b2dfa39916"
      cluster="n3f0.231b15b2dfa39916"
-     cluster_size="52 samples"
-     filetype = "pe"
+     cluster_size="57"
+     filetype = "PE32 executable (GUI) Intel 80386 (stripped to external PDB)"
      tlp = "amber"
-     version = "icewater foxtail"
+     version = "icewater snowflake"
      author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
-     date = "20171009"
-     license = "RIL v1.0 see https://raw.githubusercontent.com/SupportIntelligence/Icewater/master/LICENSE"
+     date = "20171111"
+     license = "RIL-1.0 [Rick's Internet License] "
      family="mira ccpk malicious"
-     md5_hashes="['b2cb157b4869091c81a90da128b9de93', 'c16712889cf084869581d77f453285f1', 'b2b1f00a04fe7e4970656498a7a400fa']"
+     md5_hashes="['431424d84c9a36e4ffceb1fb9f9eaded','46a485c8ec3a9ce274fa0987741b96ad','bc2e0b14df99c2773282aceda622041e']"
 
+   strings:
+      $hex_string = { 3dc55d3b8b9e925a0d65170c7581867576c9484d65ccc6910ea6aea019e3a346bcdd8ddef99dfbeb7eaa51436fc6df8ce980c947ba93a841bf3cd5a6cfff491f }
 
    condition:
+      
       filesize > 262144 and filesize < 1048576
-      and hash.md5(257536,1280) == "50bd3647c518c2cc4b265b800b3315c9"
+      and $hex_string
 }
-
