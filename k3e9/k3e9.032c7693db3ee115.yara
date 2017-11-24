@@ -1,0 +1,27 @@
+
+rule k3e9_032c7693db3ee115
+{
+
+   meta:
+     copyright="Copyright (c) 2014-2018 Support Intelligence Inc, All Rights Reserved."
+     engine="saphire/1.3.1 divinorum/0.998 icewater/0.4"
+     viz_url="http://icewater.io/en/cluster/query?h64=k3e9.032c7693db3ee115"
+     cluster="k3e9.032c7693db3ee115"
+     cluster_size="6"
+     filetype = "application/x-dosexec"
+     tlp = "amber"
+     version = "icewater snowflake"
+     author = "Rick Wesson (@wessorh) rick@support-intelligence.com"
+     date = "20171120"
+     license = "RIL-1.0 [Rick's Internet License] "
+     family="peed qukart backdoor"
+     md5_hashes="['58157a79c46e50d49975df87b0219e4a','a3eb3f77e7ddcad894a3dfa0645a6c95','db06815c167aaa03e5807d1124340f03']"
+
+   strings:
+      $hex_string = { 12e78bda2cdb7fa66e23f370795c9f59919944ce8a41d6d050d46d986b2446a08e0a4dd0417a0e9ed6183aa169dc7856161c855991a0ba393c62875be414efc9 }
+
+   condition:
+      
+      filesize > 65536 and filesize < 262144
+      and $hex_string
+}
